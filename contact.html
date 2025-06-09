@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Alley Cat Records</title> 
+    <title>Contact Us - Alley Cat Records</title>
+    <link rel="icon" href="images/auhlogo.png" type="image/x-icon"> 
 </head>
 
 <body>
@@ -19,8 +20,21 @@
     </header>
 
     <main>
+
         <h1>Contact Us</h1>
-        <p>If you have any questions or inquiries, feel free to reach out to us!</p>
+        <p>We're always looking for new voices in the scene. If you're in a band, making music, or just want to reach out — send us your demos, tell us who you are, and let us know what you're working on. We can't wait to hear from you.</p>
+
+        <form>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="description">Describe yourself:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50" required></textarea><br>
+            <label for="demo">Demo link:</label><br>
+            <input type="url" id="demo" name="demo"><br>
+            <label for="upload">Demo upload:</label><br>
+            <input type="file" id="upload" name="upload" accept="audio/*"><br>
+            <input type="submit" value="Submit">
+        </form>
     </main>
 
     <footer>
